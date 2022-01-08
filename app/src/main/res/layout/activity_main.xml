@@ -22,6 +22,7 @@
             android:layout_height="wrap_content">
         </RelativeLayout>
         <Button
+            android:id="@+id/profile"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:background="@drawable/person"/>
@@ -157,9 +158,9 @@
                     android:text="Faktor Bilangan 1 : "
                     android:textColor="@color/black"
                     android:fontFamily="@font/poppins"/>
-                <EditText
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:background="@drawable/line"/>
             </LinearLayout>
 
@@ -174,9 +175,9 @@
                     android:text="Faktor Bilangan 2 :"
                     android:textColor="@color/black"
                     android:fontFamily="@font/poppins"/>
-                <EditText
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:background="@drawable/line"/>
             </LinearLayout>
 
@@ -208,14 +209,14 @@
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="5dp">
-                <EditText
+                <TextView
                     android:layout_width="150dp"
                     android:layout_height="35dp"
                     android:background="@drawable/line"/>
                 <RelativeLayout
                     android:layout_width="20dp"
                     android:layout_height="wrap_content"/>
-                <EditText
+                <TextView
                     android:layout_width="150dp"
                     android:layout_height="35dp"
                     android:background="@drawable/line"/>
